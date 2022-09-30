@@ -1,0 +1,191 @@
+
+body{
+    background-color: #f6f9fc;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: "poppins",-apple-system,BlinkMacSystemFont,Roboto,"Arial",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    background-image:url("https://eapereg.org/wp-content/uploads/2021/09/contact-shapes.png") ;
+    background-position: 400px;
+    }
+
+#navbar {
+    position: sticky;
+    display: flex;
+    width: 87%;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 100px;
+    z-index: 1000;
+    }
+    .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f6f9fc;
+    
+    }
+    
+    .sticky + .content {
+    padding-top: 60px;
+    
+    }
+    #navbar img{
+    width: 100%;
+    }
+    #navbar >div{
+    width: 180px;
+    }
+    #navbar a{
+    margin: auto;
+    text-decoration: none;
+    
+    }
+    #navbar p{
+    font-size: 17px;
+    
+    color: rgb(56, 55, 55);
+    font-weight: bold;
+    cursor: pointer;
+    
+    }
+    #navbar>a:nth-child(9)>p{
+    height: 45px;
+    width: 120px;
+    color: #f6f9fc;
+    background-color: #0f1b29;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #navbar>a:nth-child(8)>p{
+    margin-left: 100px;
+    }
+    #navbar div{
+    margin-right: 50px;
+    cursor: pointer;
+    }
+
+    #reso{
+        display:flex
+        
+        
+    }
+    #fmpg{
+        width: 30%;
+        background-color:  #f6f9fc;
+        height: 93vh;
+        position:fixed;
+        top: 100px;
+    }
+    #respg{
+        width:67% ;
+       margin: auto;
+        height: 600px;
+        position: relative;
+        margin-left: 30%;
+    }
+    #Resources{
+        width: 60%;
+        margin-left: 400px;
+        text-align: center;
+        margin-top: 70px;
+        font-size: 40px;
+        font-weight: 900;
+        
+    }
+
+    #sel{
+        padding-top: 70px;
+        display: block;
+        width: 70%;
+        margin: auto;
+        
+    }
+    #sel1,#sel2,#sel3{
+            margin-bottom: 30px;
+            width: 100%;
+            height: 40px;
+            margin-left: 0px;
+            border: 1px solid #ff0077;
+            border-radius: 5px;
+            font-size: 17px;
+            transition: 1s;
+            outline: none;
+            color:rgb(67, 61, 61);
+    }
+    #boxes{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 50px 50px;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    #boxes>div{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: #f6f9fc;  
+    }
+
+    /* for boxes */
+    .post>img{
+       width: 100%;
+    }
+    .post>p:nth-child(2){
+        display: flex;
+        width:100px;
+        height: 20px;
+        color: #ff0077;
+        background-color: bisque;
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        margin-left: 20px;
+    }
+    .post>p:nth-child(3){
+        margin-left: 20px;
+        font-size: 17px;
+        font-weight: 500;
+        color: rgb(56, 55, 54);
+        font-weight: 800;
+        padding-right: 30px;
+    }
+    .btmdiv{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .btmdiv >div{
+           display: flex;
+           width: 50%;
+           height: 30px;
+           margin-top: 50px;
+           
+    }
+    .btmdiv img{
+        border-radius: 100%;
+    }
+    .btmdiv p{
+        display: flex; 
+        color: #ff0077;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        margin-left: 20px;
+        font-weight: 700;
+        transition: 0.3s;
+    }
+    .btmdiv p:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        transition: 0.3s;
+    }

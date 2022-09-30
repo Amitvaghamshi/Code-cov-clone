@@ -1,0 +1,239 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+background-color: #f6f9fc;
+background-image:url("https://eapereg.org/wp-content/uploads/2021/09/contact-shapes.png") ;
+background-repeat: no-repeat;
+background-attachment: scroll;
+font-family: "poppins",-apple-system,BlinkMacSystemFont,Roboto,"Arial",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+background-position:  300px 5px; 
+
+
+}
+
+#navbar {
+position: sticky;
+display: flex;
+width: 87%;
+margin: auto;
+margin-top: 20px;
+align-items: center;
+padding-left: 80px;
+padding-right: 100px;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #f6f9fc;
+
+}
+
+.sticky + .content {
+padding-top: 60px;
+
+}
+#navbar img{
+width: 100%;
+}
+#navbar >div{
+width: 180px;
+}
+#navbar a{
+margin: auto;
+text-decoration: none;
+
+}
+#navbar p{
+font-size: 17px;
+
+color: rgb(56, 55, 55);
+font-weight: bold;
+cursor: pointer;
+
+}
+#navbar>a:nth-child(9)>p{
+height: 45px;
+width: 120px;
+color: #f6f9fc;
+background-color: #0f1b29;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#navbar>a:nth-child(8)>p{
+margin-left: 100px;
+}
+#navbar div{
+margin-right: 50px;
+cursor: pointer;
+}
+#cus{
+font-size: 35px;
+font-weight: bold;
+text-align: center;
+margin-top: 100px;
+}
+.entp>img{
+width: 100%;
+
+border-radius: 20px;
+}
+
+.Enterprise{
+width: 80%;
+margin: auto;
+margin-top: 130px;
+display: flex;
+align-items: center;
+
+}
+.Enterprise>div{
+width: 40%;
+margin: auto;
+}
+.part2{
+display: block;
+}
+.part2>img{
+width: 20%;
+}
+.part2>p{
+line-height: 27px;
+
+}
+.part3{
+display: flex;
+}
+.part3>p:first-child{
+color: crimson;
+cursor: pointer;
+}
+.hitachi{
+display: flex;
+width: 70%;
+margin: auto;
+margin-top: 80PX;
+}
+.hitachi>div{
+width: 100px;
+margin: auto;
+}
+.hitachi img{
+width: 100%;
+}
+#expl{
+text-align: center;
+margin-top: 90px;
+margin-bottom: 60px;
+}
+.filtro{
+    display:grid;
+    grid-template-columns: repeat(5,200px);
+    grid-template-rows: repeat(5,200px);
+    gap: 30px 30px;
+    width: 85%;
+    margin: auto;
+    
+}
+.filtro img{
+    width: 80%;
+    cursor: pointer;
+    
+}
+.filtro>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#compny{
+    height: 50px;
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px dotted green;
+    font-size: 20px;
+    border-radius: 15px;
+    color: green;
+
+}
+
+
+/* footer css */
+#foot{
+    margin-top: 150px;
+    height: 500px;
+    background-color: #0f1b29;
+}
+#media{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    
+   
+}
+#media img{
+    width: 4%;
+}
+#media img:hover{
+    opacity: 50%;
+}
+
+#media i{
+    margin-left: 40px;
+    color: #aaafb3;
+    font-size: 23px;
+}
+#media i:hover{
+    color: aliceblue;
+}
+
+#footp2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+#footp2>div{
+    width: 15%;
+    margin: auto;
+}
+#footp2 p{
+    color: #8e949a;
+    font-size: 18px;
+    font-weight: 500;
+}
+#footp2 p:hover{
+    color: white;
+    cursor: pointer;
+}
+#footp2 div{
+    margin-top: 0px;
+}
+#footp2 a:hover{
+      color: crimson;
+}
+#footp2 a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 18px;
+}
+#creater{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: auto;
+}
+#creater>p{
+    color: green;
+}
+#creater span{
+    color: teal;
+}
