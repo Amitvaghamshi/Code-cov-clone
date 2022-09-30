@@ -5,169 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>product page</title>
+    <link rel="stylesheet" type="text/css" href="./css/product.css" /> 
 
-    <style>
-
-body{
-    background-color: #f6f9fc;
-    background-image:url("https://eapereg.org/wp-content/uploads/2021/09/contact-shapes.png") ;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    font-family: "poppins",-apple-system,BlinkMacSystemFont,Roboto,"Arial",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    background-position:  300px 5px; 
-    
-
-}
-
-        #navbar {
-   position: sticky;
-    display: flex;
-    width: 87%;
-    margin: auto;
-    margin-top: 20px;
-    align-items: center;
-    padding-left: 80px;
-    padding-right: 100px;
-   }
-   .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #f6f9fc;
-  
-}
-
-.sticky + .content {
-    padding-top: 60px;
-    
-}
-#navbar img{
-    width: 100%;
-}
-#navbar >div{
-    width: 180px;
-}
-#navbar a{
-    margin: auto;
-    text-decoration: none;
-   
-}
-#navbar p{
-   font-size: 17px;
-   
-   color: rgb(56, 55, 55);
-   font-weight: bold;
-   cursor: pointer;
-   
-}
-#navbar>a:nth-child(9)>p{
-    height: 45px;
-    width: 120px;
-    color: #f6f9fc;
-    background-color: #0f1b29;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#navbar>a:nth-child(8)>p{
-     margin-left: 100px;
-}
-#navbar div{
-    margin-right: 50px;
-    cursor: pointer;
-}
-
-/* diffrent box pattent css */
-
-.entp>img{
-    width: 100%;
-   
-    border-radius: 20px;
-}
-
-.Enterprise{
-    width: 80%;
-    margin: auto;
-    margin-top: 130px;
-    display: flex;
-    align-items: center;
-   
-}
-.Enterprise>div{
-    width: 40%;
-    margin: auto;
-}
-.part2{
-    display: block;
-}
-.part2>p{
-    line-height: 27px;
-    font-weight: 550;
-    
-}
-.part3{
-    display: flex;
-}
-.part3>p:first-child{
-    color: crimson;
-    cursor: pointer;
-    font-weight: 550;
-}
-.part3>p:first-child:hover{
-    color: brown;
-    cursor: pointer;
-}
-#hadd{
-    text-align: center;
-    font-weight: 900;
-    margin-top: 150px;
-}
-
-/* button part */
-#ready{
-            width: 50%;
-            margin: auto;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            text-align: center;
-            padding-top: 30px;
-            border-radius: 10px;
-            margin-top: 100px;
-            margin-bottom: 130px;
-           }
-           #ready>p{
-            width: 70%;
-            margin: auto;
-            font-size: 19px;
-            color: rgb(64, 58, 58);
-           }
-           #ready >div{
-            display: flex;
-            width: 90%;
-            margin: auto;
-            margin-top: 30px;
-            
-           }
-           #ready button{
-            width: 250px;
-            height: 50px;
-            border-radius: 10px;
-            margin: auto;
-            margin-bottom: 30px;
-            color: aliceblue;
-            font-size: 20px;
-            font-weight: bold;
-            border: 0px;
-           }
-           #ready button:nth-child(1){
-            background-color: #0f1b29;
-           }
-           #ready button:nth-child(2){
-            background-color: #ff0077;
-           }
-
-
-    </style>
 
 <script
 src="https://kit.fontawesome.com/24c494a6b6.js"
@@ -186,7 +25,7 @@ crossorigin="anonymous">
        <a href=""><p>Pricing</p></a>
        <a href=""> <p>Contact</p></a>
        <a href=""><p>Login</p></a>
-       <a href=""><p>Get demo</p></a>
+       <a href="getdamo.html"><p>Get demo</p></a>
     </div>
 
     <h1 id="hadd">Features</h1>
@@ -403,23 +242,68 @@ crossorigin="anonymous">
     </div>
    </div>
 
+<!-- footer -->
+
+   <div id="foot">
+    <div id="media">
+         <a href="index.html"><img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/codecov/codecov-circle.svg" alt=""></a>
+         <a href="https://www.linkedin.com/company/codecov/"> <i class="fa-brands fa-linkedin"></i> </a>
+         <a href="https://twitter.com/codecov">  <i class="fa-brands fa-twitter"></i></a>
+         <a href="https://github.com/codecov"> <i class="fa-brands fa-github"></i></a>
+         <a href="https://www.youtube.com/channel/UCj-fJuvXv-m05HkSNn0OS9g/featured"> <i class="fa-brands fa-youtube"></i></a>
+         <a href="https://angel.co/company/codecov"> <i class="fa-brands fa-angellist"></i></a>
+         <a href="https://www.instagram.com/codecov/"> <i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div id="footp2">
+            <div>
+              <h3> <a href="product.html">PRODUCT</a></h3>
+              <p>Features</p>
+              <p>Integrations</p>
+              <p>Documentation</p>
+              <p>API</p>
+              <p>Status</p>
+            </div>
+            <div>
+              <h3> <a href="">SOLUTIONS</a></h3>
+              <p>Open Source</p>
+              <p>Enterprise</p>
+              <p>Startups</p>
+              <p>Education</p>
+              
+            </div>
+            <div>
+              <h3> <a href="customers.html">CUSTOMERS</a></h3>
+              <p>Customers</p>
+              <p>Case Studies</p>
+              <p>Community</p>
+            </div>
+            <div>
+              <h3> <a href="">RESOURCES</a></h3>
+              <p>Webinars</p>
+              <p>Blog</p>
+              <p>Documentation</p>
+            </div>
+            <div>
+              <h3> <a href="">COMPANY</a></h3>
+              <p>Team</p>
+              <p>Press</p>
+              <p>Careers </p>
+              <p>Write for us</p>
+            </div>
+            <div>
+              <h3> <a href="">CONTACT US</a></h3>
+              <p>Contact</p>
+              <p>Demo</p>
+              <p>Support</p>
+            </div>
+    </div>
+    <div id="creater">
+      <p>created by : <span>@mit vaghamshi</span></p>
+    </div>
+</div>
+
 </body>
 </html>
 
 <!-- navbar script -->
-<script>
-
-    //  for navbar 
-    window.onscroll = function() {myFunction()};
-    
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-</script>
+<script src="./javascript/product.js"></script>

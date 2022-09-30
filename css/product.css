@@ -1,0 +1,240 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+background-color: #f6f9fc;
+background-image:url("https://eapereg.org/wp-content/uploads/2021/09/contact-shapes.png") ;
+background-repeat: no-repeat;
+background-attachment: scroll;
+font-family: "poppins",-apple-system,BlinkMacSystemFont,Roboto,"Arial",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+background-position:  300px 5px; 
+
+
+}
+
+#navbar {
+position: sticky;
+display: flex;
+width: 87%;
+margin: auto;
+margin-top: 20px;
+align-items: center;
+padding-left: 80px;
+padding-right: 100px;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #f6f9fc;
+
+}
+
+.sticky + .content {
+padding-top: 60px;
+
+}
+#navbar img{
+width: 100%;
+}
+#navbar >div{
+width: 180px;
+}
+#navbar a{
+margin: auto;
+text-decoration: none;
+
+}
+#navbar p{
+font-size: 17px;
+
+color: rgb(56, 55, 55);
+font-weight: bold;
+cursor: pointer;
+
+}
+#navbar>a:nth-child(9)>p{
+height: 45px;
+width: 120px;
+color: #f6f9fc;
+background-color: #0f1b29;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#navbar>a:nth-child(8)>p{
+margin-left: 100px;
+}
+#navbar div{
+margin-right: 50px;
+cursor: pointer;
+}
+
+/* diffrent box pattent css */
+
+.entp>img{
+width: 100%; 
+border-radius: 20px;
+transition: 1s;
+}
+.entp>img:hover{
+transform: scale(1.5);
+transition:0.7s;
+
+
+}
+
+.Enterprise{
+width: 80%;
+margin: auto;
+margin-top: 130px;
+display: flex;
+align-items: center;
+
+}
+.Enterprise>div{
+width: 40%;
+margin: auto;
+}
+.part2{
+display: block;
+}
+.part2>p{
+line-height: 27px;
+font-weight: 550;
+
+}
+.part3{
+display: flex;
+}
+.part3>p:first-child{
+color: crimson;
+cursor: pointer;
+font-weight: 550;
+}
+.part3>p:first-child:hover{
+color: brown;
+cursor: pointer;
+}
+#hadd{
+text-align: center;
+font-weight: 900;
+margin-top: 150px;
+}
+
+/* button part */
+#ready{
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 130px;
+   }
+   #ready>p{
+    width: 70%;
+    margin: auto;
+    font-size: 19px;
+    color: rgb(64, 58, 58);
+   }
+   #ready >div{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    
+   }
+   #ready button{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+   }
+   #ready button:nth-child(1){
+    background-color: #0f1b29;
+   }
+   #ready button:nth-child(2){
+    background-color: #ff0077;
+   }
+
+/* footer */
+   #foot{
+    margin-top: 150px;
+    height: 500px;
+    background-color: #0f1b29;
+}
+#media{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    
+   
+}
+#media img{
+    width: 4%;
+}
+#media img:hover{
+    opacity: 50%;
+}
+
+#media i{
+    margin-left: 40px;
+    color: #aaafb3;
+    font-size: 23px;
+}
+#media i:hover{
+    color: aliceblue;
+}
+
+#footp2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+#footp2>div{
+    width: 15%;
+    margin: auto;
+}
+#footp2 p{
+    color: #8e949a;
+    font-size: 18px;
+    font-weight: 500;
+}
+#footp2 p:hover{
+    color: white;
+    cursor: pointer;
+}
+#footp2 div{
+    margin-top: 0px;
+}
+#footp2 a:hover{
+      color: crimson;
+}
+#footp2 a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 18px;
+}
+#creater{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: auto;
+}
+#creater>p{
+    color: green;
+}
+#creater span{
+    color: teal;
+}
