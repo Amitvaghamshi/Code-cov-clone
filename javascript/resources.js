@@ -254,9 +254,9 @@ document.getElementById("sel1").addEventListener("change", funchange);
     }
 
     //second tag
-    document.getElementById("sel2").addEventListener("change", funchange);
+    document.getElementById("sel2").addEventListener("change", funchange2);
 
-    function funchange(el){
+    function funchange2(el){
       let val=  document.getElementById("sel2").value
       let filarr=arr.filter(function(el){
            return val==el.select
@@ -266,9 +266,9 @@ document.getElementById("sel1").addEventListener("change", funchange);
     }
 
     //3rd tag
-    document.getElementById("sel3").addEventListener("change", funchange);
+    document.getElementById("sel3").addEventListener("change", funchange3);
 
-    function funchange(el){
+    function funchange3(el){
       let val=  document.getElementById("sel3").value
       let filarr=arr.filter(function(el){
            return val==el.select

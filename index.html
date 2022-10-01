@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- for animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>welcome to code-cov</title>
     <link rel="stylesheet" href="./css/index.css">
-   
+
+    <!-- for favicon -->
+   <link rel="icon" href="./favicon/favicon.png" type="image/x-icon">
+
 
    <script
 src="https://kit.fontawesome.com/24c494a6b6.js"
@@ -20,13 +25,13 @@ crossorigin="anonymous">
     </div>
     <div id="navbar">
         <div>
-        <img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/logos/codecov.svg" alt="Codecov"></div>
+        <a href="index.html"><img src="https://about.codecov.io/wp-content/themes/codecov/assets/brand/logos/codecov.svg" alt="Codecov"></a></div>
        <a href="product.html"><p>Product</p></a> 
        <a href=""> <p>Documentation</p></a>
        <a href="customers.html"> <p>Customers</p> </a>
        <a href="resources.html"><p> Resources</p></a>
-       <a href=""><p>Pricing</p></a>
-       <a href=""> <p>Contact</p></a>
+       <a href="pricing.html"><p>Pricing</p></a>
+       <a href="contact.html"> <p>Contact</p></a>
        <a href=""><p>Login</p></a>
        <a href="getdamo.html"><p>Get demo</p></a>
     </div>
@@ -216,7 +221,7 @@ crossorigin="anonymous">
                  <div>
                     <h2>Who else is covered?</h2>
                     <p>Over 29K organizations and 1M+ developers trust Codecov to gain visibility into their code coverage.</p>
-                    <button>View Customers</button>
+                    <button>  View Customers</button>
                  </div>
     
                  <div> <a href="https://www.afterpay.com/en-US" class="bub"><img src="	https://about.codecov.io/wp-content/uploads/2021/06/afterpay.svg
@@ -271,7 +276,7 @@ crossorigin="anonymous">
      </div>
      
 
-     <div id="ready">
+     <div id="ready" data-aos="flip-left"  data-aos-delay="50" data-aos-duration="1000">
         <h2>Ready to get covered?</h2>
         <p>Join over a million developers in shipping healthier code today. Sign up with your code host below.</p>
         <div>
@@ -315,7 +320,7 @@ crossorigin="anonymous">
                   <p>Community</p>
                 </div>
                 <div>
-                  <h3> <a href="">RESOURCES</a></h3>
+                  <h3> <a href="resources.html">RESOURCES</a></h3>
                   <p>Webinars</p>
                   <p>Blog</p>
                   <p>Documentation</p>
@@ -328,7 +333,7 @@ crossorigin="anonymous">
                   <p>Write for us</p>
                 </div>
                 <div>
-                  <h3> <a href="">CONTACT US</a></h3>
+                  <h3> <a href="getdamo.html">CONTACT US</a></h3>
                   <p>Contact</p>
                   <p>Demo</p>
                   <p>Support</p>
@@ -344,3 +349,10 @@ crossorigin="anonymous">
 </html>
 
 <script src="./javascript/index.js"></script>
+
+
+<!-- for flip -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
