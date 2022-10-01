@@ -43,6 +43,7 @@ align-items: center;
 padding-left: 80px;
 padding-right: 100px;
 z-index: 1000;
+
 }
 .sticky {
 position: fixed;
@@ -425,7 +426,7 @@ font-size: 20px;
 color: rgb(70, 67, 67);
 line-height: 20px;
 }
-#bubble2>div:nth-child(3)>button{
+#bubble2>div:nth-child(3) >button{
 height: 50px;
 width: 180px;
 background-color: crimson;
@@ -435,7 +436,6 @@ font-size: 18px;
 border: 0px;
 border-radius: 10px;
 margin-top: 50px;
-cursor: pointer;
 }
 #bubble2>div:nth-child(4){
    width: 70px;

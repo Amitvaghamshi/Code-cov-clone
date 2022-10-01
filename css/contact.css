@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "poppins",-apple-system,BlinkMacSystemFont,Roboto,"Arial",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+#damo{
+    display: flex;
+}
+#damo>div{
+    width: 50%;
+   
+    background-color: #0f1b29;
+}
+#damo>div:first-child{
+    height:100vh;
+    
+}
+#damo>div:nth-child(2){
+    background-color: white;
+}
+#imgs>div:first-child{
+    width: 35%;
+    margin: 40px;
+    
+}
+#imgs img{
+    width: 90%;
+}
+#imgs h2{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 30px;
+}
+#pres{
+    margin-left: 130px;
+    margin-top: 150px;
+    width: 60%;
+
+}
+#pres p{
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+#pink{
+    color: crimson;
+    font-weight: 900;
+}
+#pics{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+}
+#pics>div{
+    width: 20%;
+}
+#pics img{
+    width: 70%;
+}
+#formsub{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+#formsub p{
+    font-size: 13px;
+    color: #333333;
+    font-weight: 550;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+.reqr{
+    color: red;
+}
+.inp{
+    height: 35px;
+    width: 90%;
+    font-size: 15px;
+    border: 1px solid rgb(131, 116, 116);
+    border-radius: 3px;
+}
+.inp:focus{
+    border: 3px solid #ff0077;
+    transition: 0.3s;
+    outline: none;
+}
+#subm{
+    width: 97%;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #ff0077;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+form>div{
+    display: flex;
+}
+.long{
+    width: 95%;
+}
+#message{
+    height: 100px;
+    width: 95%;
+}
